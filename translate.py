@@ -27,7 +27,7 @@ def ret(f, *args, **kwargs):
             if(i>20):
                 return
             print(ex)
-            time.sleep(60*30)
+            time.sleep(1)
 
 
 while (True):
@@ -46,7 +46,7 @@ while (True):
                 jonatilgan.append(a)
                 open("./jonatilgan.json", "w").write(json.dumps(jonatilgan))
                 ret(bot.send_message, "@sanlaodam", "[Batafsil bilish uchun shu yerga bosing](" + a + ")\n#uz", parse_mode="markdown")
-                time.sleep(60*20)
+                time.sleep(1)
 # from googletrans import Translator
 
 # def translate(matn):
