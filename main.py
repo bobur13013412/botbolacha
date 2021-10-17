@@ -2,7 +2,7 @@ import os
 import time
 
 while(True):
-    os.system("py a.py")
+    os.system("py translate.py")
     time.sleep(60*30)
 # from translate import translate
 # import telebot
